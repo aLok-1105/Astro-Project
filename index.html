@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro Club, VNIT</title>
+    <link rel="icon" type="image/x-icon" href="Astro1.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body >
 
@@ -45,11 +50,11 @@
 
 
 
-<nav class="navbar navbar-expand-lg w-100" style="padding: 0px;">
+<!-- <nav class="navbar navbar-expand-lg w-100" style="padding: 0px;">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html" ><img src="Astro1.png" id="logo" alt="" srcset="" height="80px" width="80px" ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><img src="lines.png" alt="" srcset="" height="20px">
-      <!-- <span class="navbar-toggler-icon"></span> -->
+
     </button>
     <div class="collapse navbar-collapse" id="navbarNav" style="color:#fff; ">
       <ul class="navbar-nav">
@@ -77,14 +82,10 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 
 
-
-
-
-    <div class="fade-rule"></div> 
-
+<!-- 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" >
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -130,23 +131,101 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div> -->
+
+
+
+
+      
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="Astro1.png" id="logo" alt="" srcset="" height="100px" width="100px"></a></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="fade-rule"></div> 
+
+
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" style = "width: 100%; background-image: url('5.jpg'); background-size: cover;">
+            <!-- <img src="4.jpg" alt="Chicago" > -->
+            
+          </div>
+    
+          <div class="item" style = "width: 100%; background-image: url('6.jpg'); background-size: cover;">
+            <!-- <img src="2.jpg" alt="Chicago" > -->
+          </div>
+        
+          <div class="item" style = "width: 100%; background-image: url('7.jpg'); background-size: cover;">
+            <!-- <img src="3.jpg" alt="New york"> -->
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+    </div>
 
 
 
-
+    <div>
       <div class="footer">
         <h1 class="foot-name">Follow Us on</h1>
         <ul class="foot-ele">
-          <li class="element"><a href="http://instagram.com"><img src="Insta Logo.png" class="foot-img" alt="FB"></a></li>
-          <li class="element"><a href="http://linkidn.com"><img src="Linkidn Logo.png" class="foot-img" alt="FB"></a></li>
+          <li class="element"><a href="https://www.instagram.com/ashlesha_astronomy_club_vnit/?hl=en"><img src="Insta Logo.png" class="foot-img" alt="FB"></a></li>
+          <!-- <li class="element"><a href="http://linkidn.com"><img src="Linkidn Logo.png" class="foot-img" alt="FB"></a></li> -->
+          <li class="element"><a href="https://www.facebook.com/AstroClubOfVnit/"><img src="Facebook Logo.png" class="foot-img" alt="FB"></a></li>
         </ul>
+        
+      </div>
+      <div class="details">
+        Ashlesha - Astronomy Club of VNIT, Nagpur
       </div>
 
       
 
+
+
+      <!-- <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> -->
 
 </body>
 </html>
